@@ -2,7 +2,7 @@
 title: More
 nav:
   order: 6
-  tooltip: Awards, services, coverage and contact
+  tooltip: Awards, services and contact
 ---
 
 {%include more.html%}
