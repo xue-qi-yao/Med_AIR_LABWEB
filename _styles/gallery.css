@@ -36,10 +36,6 @@
   transition: opacity 0.3s ease;
 }
 
-.image-box:hover .overlay {
-  opacity: 1;
-}
-
 .full-image-container {
   position: fixed;
   top: 0;
@@ -116,7 +112,7 @@
 }
 
 .preview-image.active {
-  border: 2px solid #7dd3fc;
+  border: 5px solid var(--primary);
 }
 
 /*# sourceMappingURL=gallery.css.map */
