@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+   
+                 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Media | Med-AIR Lab</title>
+
+<link rel="icon" href="/Med_AIR_LABWEB/images/Med-AIR.png">
+
+<meta name="title" content="Media">
+<meta name="description" content="Department of Computer Science and Engineering @ CUHK. Medical Image Analysis, Machine Learning, Surgical Data Science, Robotics.">
+
+<meta property="og:title" content="Media">
+<meta property="og:site_title" content="Med-AIR Lab">
+<meta property="og:description" content="Department of Computer Science and Engineering @ CUHK. Medical Image Analysis, Machine Learning, Surgical Data Science, Robotics.">
+<meta property="og:url" content="">
+<meta property="og:image" content="">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Media">
+<meta property="twitter:description" content="Department of Computer Science and Engineering @ CUHK. Medical Image Analysis, Machine Learning, Surgical Data Science, Robotics.">
+<meta property="twitter:url" content="">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="">
+
+
+<meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "Media",
+    "description": "Department of Computer Science and Engineering @ CUHK. Medical Image Analysis, Machine Learning, Surgical Data Science, Robotics.",
+    "headline": "Media",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/Med_AIR_LABWEB/images/Med-AIR.png" }
+    },
+    "url": ""
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="/Med_AIR_LABWEB/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=MSK+Sans%20Web:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=MSK+Sans%20Web%20Bold:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/gallery.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/group.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/more.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/publication.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/talks.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/Med_AIR_LABWEB/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+  <link href="/Med_AIR_LABWEB/_styles/fonts.css" rel="stylesheet">
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/Med_AIR_LABWEB/_scripts/anchors.js"></script>
+
+  <script src="/Med_AIR_LABWEB/_scripts/dark-mode.js"></script>
+
+  <script src="/Med_AIR_LABWEB/_scripts/fetch-tags.js"></script>
+
+  <script src="/Med_AIR_LABWEB/_scripts/gallery.js"></script>
+
+  <script src="/Med_AIR_LABWEB/_scripts/publication.js"></script>
+
+  <script src="/Med_AIR_LABWEB/_scripts/search.js"></script>
+
+  <script src="/Med_AIR_LABWEB/_scripts/site-search.js"></script>
+
+  <script src="/Med_AIR_LABWEB/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+<header class="background" style="--image: url('/Med_AIR_LABWEB/images/cuhk_background.jpg')" data-dark="true">
+  <a href="/Med_AIR_LABWEB/" class="home">
+    
+      <span class="logo">
+        
+          <img src="/Med_AIR_LABWEB/images/CUHK_logol.png" alt="logo">
+        
+      </span>
+    
+    
+      <span class="title" data-tooltip="Home">
+        
+          <span>Med-AIR Lab</span>
+        
+        
+          <span>Department of Computer Science and Engineering @ CUHK</span>
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/Med_AIR_LABWEB/team/" data-tooltip="Team and positions">
+          Team
+        </a>
+      
+    
+      
+        <a href="/Med_AIR_LABWEB/research/" data-tooltip="Research directions">
+          Research
+        </a>
+      
+    
+      
+        <a href="/Med_AIR_LABWEB/talks/" data-tooltip="Invited talks">
+          Talks
+        </a>
+      
+    
+      
+        <a href="/Med_AIR_LABWEB/publication/" data-tooltip="Published works">
+          Publication
+        </a>
+      
+    
+      
+        <a href="/Med_AIR_LABWEB/media/" data-tooltip="Press release">
+          Media
+        </a>
+      
+    
+      
+        <a href="/Med_AIR_LABWEB/join/" data-tooltip="Awards, services, coverage and contact">
+          Join
+        </a>
+      
+    
+      
+        <a href="/Med_AIR_LABWEB/more/" data-tooltip="Awards, services, coverage and contact">
+          More
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main><!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - wrap each table in div to allow for scrolling
+  - filter out blank sections
+-->
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h2>
+<i class="fa-solid fa-newspaper"></i>  Press Release</h2>
+
+<h3>2023</h3>
+
+<div class="card" data-style="">
+  <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-receives-three-ministry-of-education-higher-education-outstanding-scientific-research-output-awards-3/" aria-label="CUHK Receives Three Ministry of Education Higher Education Outstanding Scientific Research Output Awards" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/CUHK.png" alt="CUHK Receives Three Ministry of Education Higher Education Outstanding Scientific Research Output Awards" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-receives-three-ministry-of-education-higher-education-outstanding-scientific-research-output-awards-3/" class="card-title">
+        CUHK Receives Three Ministry of Education Higher Education Outstanding Scientific Research Output Awards
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<h3>2022</h3>
+
+<div class="card" data-style="">
+  <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-ai-technology-navigates-microrobot-swarm-in-complex-environments-inside-human-body/" aria-label="CUHK AI technology navigates microrobot swarm in complex environments inside human body" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/CUHK.png" alt="CUHK AI technology navigates microrobot swarm in complex environments inside human body" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-ai-technology-navigates-microrobot-swarm-in-complex-environments-inside-human-body/" class="card-title">
+        CUHK AI technology navigates microrobot swarm in complex environments inside human body
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://hk.news.yahoo.com/%E4%B8%AD%E5%A4%A7%E9%96%8B%E7%99%BC%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%8A%80%E8%A1%93-%E7%82%BA%E5%BE%AE%E5%9E%8B%E6%A9%9F%E6%A2%B0%E4%BA%BA%E6%B7%BB%E8%87%AA%E5%8B%95%E5%B0%8E%E8%88%AA-054638260.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAACUt-OtSuvx9ViHQoCtFYc-8N9pzylIhEutePXL_wnVL0IL9aqhH5aBb_EikNWMIxcRQ-1-jsNSxykN2pvsE61_NOfjSOvlfp0-SGmJoG_C1LOTzdRRIckAfltWuCFoGvShqfoXtSpA9XeUSK_qX6BCnfnmkTm2jOHDDRUYFRABa" aria-label="CUHK AI technology navigates microrobot swarm in complex environments inside human body" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/xing_dao_ri_bao.png" alt="CUHK AI technology navigates microrobot swarm in complex environments inside human body" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://hk.news.yahoo.com/%E4%B8%AD%E5%A4%A7%E9%96%8B%E7%99%BC%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%8A%80%E8%A1%93-%E7%82%BA%E5%BE%AE%E5%9E%8B%E6%A9%9F%E6%A2%B0%E4%BA%BA%E6%B7%BB%E8%87%AA%E5%8B%95%E5%B0%8E%E8%88%AA-054638260.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAACUt-OtSuvx9ViHQoCtFYc-8N9pzylIhEutePXL_wnVL0IL9aqhH5aBb_EikNWMIxcRQ-1-jsNSxykN2pvsE61_NOfjSOvlfp0-SGmJoG_C1LOTzdRRIckAfltWuCFoGvShqfoXtSpA9XeUSK_qX6BCnfnmkTm2jOHDDRUYFRABa" class="card-title">
+        CUHK AI technology navigates microrobot swarm in complex environments inside human body
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.hkcd.com/hkcdweb/content/2022/05/29/content_1346705.html" aria-label="CUHK AI technology navigates microrobot swarm in complex environments inside human body" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/xiang_gang_shang_bao.png" alt="CUHK AI technology navigates microrobot swarm in complex environments inside human body" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.hkcd.com/hkcdweb/content/2022/05/29/content_1346705.html" class="card-title">
+        CUHK AI technology navigates microrobot swarm in complex environments inside human body
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://news.mingpao.com/pns/%e6%95%99%e8%82%b2/article/20220530/s00011/1653847433250/%e4%b8%ad%e5%a4%a7%e7%a0%94%e6%96%b0%e5%b0%8e%e8%88%aa%e6%8a%80%e8%a1%93-%e6%a9%9f%e6%a2%b0%e4%ba%ba%e3%80%8c%e7%b5%90%e9%9a%8a%e5%a6%82%e8%9c%82%e3%80%8d-%e4%ba%ba%e9%ab%94%e5%85%a7%e9%81%bf%e9%9a%9c%e9%80%81%e8%97%a5" aria-label="CUHK AI technology navigates microrobot swarm in complex environments inside human body" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/ming_bao.png" alt="CUHK AI technology navigates microrobot swarm in complex environments inside human body" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://news.mingpao.com/pns/%e6%95%99%e8%82%b2/article/20220530/s00011/1653847433250/%e4%b8%ad%e5%a4%a7%e7%a0%94%e6%96%b0%e5%b0%8e%e8%88%aa%e6%8a%80%e8%a1%93-%e6%a9%9f%e6%a2%b0%e4%ba%ba%e3%80%8c%e7%b5%90%e9%9a%8a%e5%a6%82%e8%9c%82%e3%80%8d-%e4%ba%ba%e9%ab%94%e5%85%a7%e9%81%bf%e9%9a%9c%e9%80%81%e8%97%a5" class="card-title">
+        CUHK AI technology navigates microrobot swarm in complex environments inside human body
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<h3>2021</h3>
+
+<div class="card" data-style="">
+  <a href="https://cuhk.edu.hk/english/features/dou-qi.html" aria-label="Detecting COVID through Smart Machines featured at CUHK Homepage" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/CUHK.png" alt="Detecting COVID through Smart Machines featured at CUHK Homepage" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://cuhk.edu.hk/english/features/dou-qi.html" class="card-title">
+        Detecting COVID through Smart Machines featured at CUHK Homepage
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://cpr.cuhk.edu.hk/en/press/cuhk-engineering-research-team-wins-ieee-icra-2021-best-paper-award-in-medical-robotics/" aria-label="CUHK Engineering Research Team Wins IEEE ICRA 2021 Best Paper Award in Medical Robotics" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/CUHK.png" alt="CUHK Engineering Research Team Wins IEEE ICRA 2021 Best Paper Award in Medical Robotics" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://cpr.cuhk.edu.hk/en/press/cuhk-engineering-research-team-wins-ieee-icra-2021-best-paper-award-in-medical-robotics/" class="card-title">
+        CUHK Engineering Research Team Wins IEEE ICRA 2021 Best Paper Award in Medical Robotics
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.med.cuhk.edu.hk/press-releases/cuhk-research-team-develops-an-ai-system-for-detecting-covid-19-infections-in-ct-with-a-privacy-preserving-multinational-validation-study" aria-label="CUHK featured research on AI for detecting COVID-19 infections in CT" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/CUHK.png" alt="CUHK featured research on AI for detecting COVID-19 infections in CT" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.med.cuhk.edu.hk/press-releases/cuhk-research-team-develops-an-ai-system-for-detecting-covid-19-infections-in-ct-with-a-privacy-preserving-multinational-validation-study" class="card-title">
+        CUHK featured research on AI for detecting COVID-19 infections in CT
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<h3>2020</h3>
+
+<div class="card" data-style="">
+  <a href="https://rsipvision.com/MIDL2020/20/" aria-label="Featured as Woman in Science by RSIPvision Computer Vision News international magazine" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/RSIP.png" alt="Featured as Woman in Science by RSIPvision Computer Vision News international magazine" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://rsipvision.com/MIDL2020/20/" class="card-title">
+        Featured as Woman in Science by RSIPvision Computer Vision News international magazine
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://cuhk.edu.hk/oal/asiancancers/?utm_source=THE+Website+Users&amp;utm_campaign=185c0ebef5-EMAIL_CAMPAIGN_2020_04_09_08_07&amp;utm_medium=email&amp;utm_term=0_daa7e51487-185c0ebef5-63237437" aria-label="CUHK Leading the Combat against Asian Prevalent Cancers" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/CUHK.png" alt="CUHK Leading the Combat against Asian Prevalent Cancers" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://cuhk.edu.hk/oal/asiancancers/?utm_source=THE+Website+Users&amp;utm_campaign=185c0ebef5-EMAIL_CAMPAIGN_2020_04_09_08_07&amp;utm_medium=email&amp;utm_term=0_daa7e51487-185c0ebef5-63237437" class="card-title">
+        CUHK Leading the Combat against Asian Prevalent Cancers
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<h3>2019</h3>
+
+<div class="card" data-style="">
+  <a href="https://www.chinadaily.com.cn/a/201904/03/WS5ca4901ca3104842260b4431_1.html" aria-label="AI used to pinpoint head and neck cancer treatment" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/zhong_guo_ri_bao.jpg" alt="AI used to pinpoint head and neck cancer treatment" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.chinadaily.com.cn/a/201904/03/WS5ca4901ca3104842260b4431_1.html" class="card-title">
+        AI used to pinpoint head and neck cancer treatment
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.chinadaily.com.cn/a/201904/03/WS5ca4901ca3104842260b4431_1.html" aria-label="Machine Intelligence to Detect Subtle Signs of Early Disease" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/EU_research.jpg" alt="Machine Intelligence to Detect Subtle Signs of Early Disease" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.chinadaily.com.cn/a/201904/03/WS5ca4901ca3104842260b4431_1.html" class="card-title">
+        Machine Intelligence to Detect Subtle Signs of Early Disease
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<h3>2018</h3>
+
+<div class="card" data-style="">
+  <a href="https://www.instagram.com/p/BrPRtQ_h3Fy/?utm_source=ig_share_sheet&igshid=u0vmh7epyr8m" aria-label="CUHK Engineering Social Media Platform with keywords on healthcare technology and woman engineering" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/CUHK.png" alt="CUHK Engineering Social Media Platform with keywords on healthcare technology and woman engineering" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.instagram.com/p/BrPRtQ_h3Fy/?utm_source=ig_share_sheet&igshid=u0vmh7epyr8m" class="card-title">
+        CUHK Engineering Social Media Platform with keywords on healthcare technology and woman engineering
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="http://www.cse.cuhk.edu.hk/en/achievement/professor-and-research-staff/1214-dr-qi-dou-won-the-hkis-towngas-young-scientist-award-2018-and-cuhk-postgraduate-research-output-award-2017" aria-label="CUHK CSE News of Achievement" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/CUHK.png" alt="CUHK CSE News of Achievement" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="http://www.cse.cuhk.edu.hk/en/achievement/professor-and-research-staff/1214-dr-qi-dou-won-the-hkis-towngas-young-scientist-award-2018-and-cuhk-postgraduate-research-output-award-2017" class="card-title">
+        CUHK CSE News of Achievement
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.iso.cuhk.edu.hk/english/publications/CUHKUPDates/article.aspx?articleid=2129" aria-label="CUHK Updates, An Eagle Eye for Smart Diagnoses" class="card-image">
+    <img src="/Med_AIR_LABWEB/images/media/CUHK.png" alt="CUHK Updates, An Eagle Eye for Smart Diagnoses" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.iso.cuhk.edu.hk/english/publications/CUHKUPDates/article.aspx?articleid=2129" class="card-title">
+        CUHK Updates, An Eagle Eye for Smart Diagnoses
+    </a>
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+  </section>
+
+</main>
+    
+
+
+<footer class="background" style="--image: url('/Med_AIR_LABWEB/images/CUHK_edge.png')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/Med_AIR_LABWEB/med-air" data-style="bare" aria-label="button">
+      
+      
+    </a>
+  </div>
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/Med_AIR_LABWEB/QiDou_" data-style="bare" aria-label="button">
+      
+      
+    </a>
+  </div>
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/Med_AIR_LABWEB/qidou@cuhk.edu.hk" data-style="bare" aria-label="button">
+      
+      
+    </a>
+  </div>
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://carrend.github.io/" data-style="bare" aria-label="button">
+      
+      
+    </a>
+  </div>
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/Med_AIR_LABWEB/iHh7IJQAAAAJ&amp;hl=zh-CN" data-style="bare" aria-label="button">
+      
+      
+    </a>
+  </div>
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/Med_AIR_LABWEB/0000-0002-3416-9950" data-style="bare" aria-label="button">
+      
+      
+    </a>
+  </div>
+
+    
+  </div>
+
+  <div class="footer">
+    © 2024
+    Med-AIR Lab
+      |   Department of Computer Science and Engineering @ CUHK  |  Built with
+    <a href="https://github.com/greenelab/lab-website-template" target="__blank">
+      Lab Website Template
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)"> 
+</footer>
+
+  </body>
+</html>
