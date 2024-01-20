@@ -6,6 +6,11 @@
     const captionElement = document.querySelector('.caption');
     const previewImagesContainer = document.querySelector('.preview-images');
 
+    // Add event listener to the gallery image
+    galleryImage.addEventListener("click", function () {
+    window.open(this.src, "_blank");
+    });
+
     const photos = [
     {
         src: './images/gallery/gallery1.png',
