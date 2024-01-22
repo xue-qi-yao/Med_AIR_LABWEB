@@ -5,7 +5,12 @@ nav:
   tooltip: Press release
 ---
 
-<h2><i class="fa-solid fa-newspaper"></i>&nbsp;&nbsp;Press Release</h2>
+<h2>Press Release</h2>
+
+{% include list.html component="card" data="media" %}
+
+<!-- <h3>2024</h3>
+{% include list.html component="card" data="media" filters="group: 2024"%}
 
 <h3>2023</h3>
 {% include list.html component="card" data="media" filters="group: 2023"%}
@@ -24,3 +29,6 @@ nav:
 
 <h3>2018</h3>
 {% include list.html component="card" data="media" filters="group: 2018"%}
+
+<h3>2017</h3>
+{% include list.html component="card" data="media" filters="group: 2017"%} -->

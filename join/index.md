@@ -2,7 +2,7 @@
 title: Join
 nav:
   order: 5
-  tooltip: Awards, services, coverage and contact
+  tooltip: Opening positions
 ---
 
 {%include join.html%}

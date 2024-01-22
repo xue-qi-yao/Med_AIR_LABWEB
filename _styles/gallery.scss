@@ -5,18 +5,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 500px;
 }
 
 .photo-container {
   position: relative;
-  height: 400px;
+  height: 500px;
 }
 
 .image-box {
   position: relative;
-  width: 600px;
-  height: 400px;
+  width: 770px;
+  height: 500px;
   overflow: hidden;
 }
 
@@ -79,10 +79,24 @@
   transform: translateY(-50%);
   background-color: transparent;
   border: none;
-  color: #b6b6b6;
-  font-size: 30px;
+  color: rgba(21, 69, 127, 0.5);
+  font-size: 70px;
+  padding: 0 10px;
   cursor: pointer;
   z-index: 1;
+  outline: none;
+  transition: color 0.2s ease-in-out;
+  font-weight: 200;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  color: rgba(21, 69, 127, 1);
+}
+
+.prev-button:focus,
+.next-button:focus {
+  outline: none;
 }
 
 .prev-button {
@@ -115,5 +129,6 @@
 }
 
 .preview-image.active {
-  border: 5px solid var(--primary)
+  border: 2px solid var(--primary);
+  opacity: 0.5;
 }

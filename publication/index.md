@@ -5,7 +5,5 @@ nav:
   tooltip: Published works
 ---
 
-
-
 {% include publication.html %}
 
