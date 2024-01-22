@@ -5,8 +5,8 @@
     const galleryImage = document.getElementById('gallery-image');
     const captionElement = document.querySelector('.caption');
     const previewImagesContainer = document.querySelector('.preview-images');
+    const imageBox = document.querySelector('.image-box');
 
-    // Add event listener to the gallery image
     galleryImage.addEventListener("click", function () {
     window.open(this.src, "_blank");
     });
@@ -92,8 +92,8 @@
     function updatePreviewBar() {
         previewImagesContainer.innerHTML = '';
     
-        const startIndex = (currentIndex - 3 + photos.length) % photos.length;
-        const endIndex = (currentIndex + 4) % photos.length;
+        const startIndex = (currentIndex - 4 + photos.length) % photos.length;
+        const endIndex = (currentIndex + 5) % photos.length;
     
         for (let i = startIndex; i !== endIndex; i = (i + 1) % photos.length) {
             const previewImage = document.createElement('img');
@@ -108,6 +108,13 @@
                 updatePreviewBar();
             });
             previewImagesContainer.appendChild(previewImage);
+        }
+        const activePreviewImage = document.querySelector('.preview-image.active');
+        if (activePreviewImage) {
+            previewImagesContainer.scrollTo({
+                left: activePreviewImage.offsetLeft - previewImagesContainer.offsetWidth / 2 + activePreviewImage.offsetWidth / 2,
+                behavior: 'smooth'
+            });
         }
     }
 
