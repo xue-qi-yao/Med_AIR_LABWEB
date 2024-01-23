@@ -13,7 +13,10 @@
         }
         for (var i = 0; i < years.length; i++) {
             var year = years[i];
-            if (tag !== "all") {
+            if (tag === "all") {
+                year.style.display = "flex";
+            }
+            else {
                 year.style.display = "none";
             }
         }

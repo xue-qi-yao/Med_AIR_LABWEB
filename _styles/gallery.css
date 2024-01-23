@@ -89,6 +89,7 @@
 .prev-button:hover,
 .next-button:hover {
   color: rgb(21, 69, 127);
+  font-weight: 400;
 }
 
 .prev-button:focus,
@@ -125,9 +126,13 @@
   cursor: pointer;
 }
 
-.preview-image.active {
-  border: 2px solid var(--primary);
+.preview-image:hover {
   opacity: 0.5;
+}
+
+.preview-image.active {
+  opacity: 0.3;
+  border: 2px solid var(--primary);
 }
 
 /*# sourceMappingURL=gallery.css.map */

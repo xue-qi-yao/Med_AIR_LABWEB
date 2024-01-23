@@ -116,6 +116,20 @@
                 behavior: 'smooth'
             });
         }
+        const prevIndex = (currentIndex - 1 + photos.length) % photos.length;
+        const nextIndex = (currentIndex + 1) % photos.length;
+        const prevImage = new Image();
+        const nextImage = new Image();
+        prevImage.src = photos[prevIndex].src;
+        nextImage.src = photos[nextIndex].src;
+        prevImage.onload = () => {
+        const prevHalfWidth = prevImage.width * 0.3;
+        imageBox.style.backgroundPosition = `right ${prevHalfWidth}px center`;
+        };
+        nextImage.onload = () => {
+        const nextHalfWidth = nextImage.width * 0.3;
+        imageBox.style.backgroundPosition = `left ${nextHalfWidth}px center`;
+        };
     }
 
     function startSlideshow() {
