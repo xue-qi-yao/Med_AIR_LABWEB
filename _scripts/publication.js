@@ -14,7 +14,10 @@
         for (var i = 0; i < years.length; i++) {
             var year = years[i];
             if (tag === "all") {
-                year.style.display = "flex";
+                year.style.display = "";
+                year.style.position = "absolute";
+                year.style.left = "50%";
+                year.style.transform = "translateX(-50%)";
             }
             else {
                 year.style.display = "none";

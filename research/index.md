@@ -7,95 +7,63 @@ nav:
 
 {%include research.html%}
 
-We are driving the Pediatrics Precision Medicine Initiative for the Department of Pediatrics, and support clinical translational research for the Center for Heme Malignancies at MSK.
+Our research is at the interdisciplinary field of **medical image analysis**, **machine learning** and **robotic surgery intelligence**, aiming to create synergistic advancements for innovative intelligent systems that achieve an impact to support delivery of higher-quality medical diagnosis, intervention and education via next-generation healthcare technology. Previous representative works include 3D deep learning for high-dimensional image computing, domain adaptation and generalization on heterogeneous medical data, surgical video analysis with efficient spatial-temporal learning, and visual-kinematics surgical robotics perception and automation.
 
-We benefit from a fully resourced computational and research environment. We have access to state-of-the-art computing and laboratory facilities to support truly ambitious and innovative research.
-
+Recent focus: 1) **embodied intelligence** in surgical robots, 2) **smart mixed-reality** for robotic surgical education, 3) **multi-sensory perception** in dynamic environment, 4) **model generalization on non-iid medical images at FL/multi-center learning** in real-world.
 {% 
   include figure.html 
   image="images/wordcloud.jpg"
-  width="600px"
-%}
-
-<!-- ## Direction 1
-
-Direction 1 content.
-{% 
-  include figure.html 
-  image=""
   width="800px"
 %}
-
-## Direction 2
-
-Direction 2 content.
-
-## Direction 3
-
-Direction 3 content.
-
-## Direction 4 
-
-Direction 4 content -->
-
-
-
-{% include section.html %}
-
+<br>
+<h2> Directions </h2>
 {% capture text %}
+**Theoretical Analysis**: we focuse on two key areas, federated learning and addressing label imbalance as well as noisy labels. We explore the application of federated learning techniques to train medical image analysis models while preserving data privacy. Additionally, we investigate methods to handle imbalanced label distributions in medical imaging data, improving detection and classification capabilities for underrepresented classes. Furthermore, our research delves into mitigating the impact of noisy labels, enhancing the reliability and performance of medical image analysis models.
 
-We conduct research at three levels. Firstly we perform **systematic genome profiling** of large (>1000) and well-annotated patient cohorts to characterize genetic and clinical inter-relationships. We use advanced statistical modeling to study genotype-phenotype and genotype-outcome relationships as a framework for the development of molecularly guided clinical decision support algorithms to support diagnosis and prognostication of cancer patients. Such population based analysis, enable us to identify genotype combinations that are critical to disease biology, or that associate strongly with clinical presentation, response to treatment and overall survival.
-
-These studies empower our second level research. We use population data to **characterize disease associated, outcome defining and treatment informing genotypes**. We select representative samples for detailed molecular phenotyping using integrative genomic and cell based assays to single cell characterizations.
-
-Last, we perform detailed **clonal heterogeneity tracking studies**. We profile temporally as well as spatially separated samples (diagnosis, pre-treatment, post treatment) to quantify changing clonal phylogenies, during disease progression, or in response to therapeutic intervention.
-
+**Clinical application**: we aim to translate advanced analysis techniques into real-world medical practice. We concentrate on utilizing automated image analysis and recognition to assist physicians in disease diagnosis. By leveraging these techniques, we aim to support healthcare professionals in quickly and accurately determining the type and severity of diseases. Moreover, our work focuses on the development of automated disease segmentation and localization techniques, which enable the identification and precise mapping of abnormal regions in medical images. 
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/elli-maria.png"
+  image="images/research/research1.png"
   link="research"
-  title="Our Research"
+  title="Medical Image Analysis"
   text=text
-  width="500px"
   flip=true
   className="feature-image"
 %}
 
 {% capture text %}
 
-We are driving the Pediatrics Precision Medicine Initiative for the Department of Pediatrics, and support clinical translational research for the Center for Heme Malignancies at MSK.
+**Surgical Task Automation**: Surgical procedures require precision and expertise, and the integration of intelligent algorithms and robotic systems can enhance surgical outcomes. We aim to develop advanced technologies that provide real-time assistance and decision support to surgeons during operations. By leveraging machine learning, computer vision, and robotic control, their research aims to improve surgical accuracy, reduce complications, and enhance patient safety.
 
-We benefit from a fully resourced computational and research environment. We have access to state-of-the-art computing and laboratory facilities to support truly ambitious and innovative research.
+**Intelligent Cognitive Assistance for Surgery**: Automation of routine surgical tasks can streamline procedures, reduce surgical time, and improve overall efficiency. Through the development of autonomous robotic systems, we aim to automate specific surgical tasks, such as suturing or tissue manipulation, to augment the capabilities of surgeons and enhance surgical outcomes.
 
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/kids1.jpg"
+  image="images/research/research2.jpeg"
   link="tools"
-  title="Our Projects"
+  title="Sugerical Robotics"
   text=text
-  width="500px"
   className="feature-image"
 %}
 
 {% capture text %}
 
-We like to perform ambitious research, but operate in a fun, collaborative, and team-oriented environment, and we are strongly committed to mentoring young scientists through internal and international internship schemes.
+Augmented Reality (AR) and Virtual Reality (VR) technologies have great potential in the medical field. Professor we explores the application of AR/VR in various medical domains, including surgical simulation, medical education, and visualization of medical images. By creating immersive and interactive experiences, these technologies can enhance medical training, improve surgical planning, and facilitate better communication between healthcare professionals and patients. 
 
-**Join us:** We are looking for inspiring, motivated individuals to join our team, challenge our current understanding of cancer biology and help make new discoveries that will inform cancer care and improve patient outcomes.
+This research direction encompass a wide range of interdisciplinary studies, combining expertise in medical image analysis, robotics, and AR/VR technologies. We not only addresses critical challenges in healthcare but also strives to push the boundaries of innovation, ultimately contributing to improved diagnostics, enhanced surgical procedures, and better patient outcomes.
 
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/lab-edge.jpg"
+  image="images/research/research3.gif"
   link="team"
-  title="Our Team"
+  title="AR/VR in Medicine"
   text=text
-  width="500px"
   flip=true
   className="feature-image"
 %}
