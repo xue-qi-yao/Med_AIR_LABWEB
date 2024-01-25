@@ -14,15 +14,15 @@ We benefit from a fully resourced computational and research environment. We hav
 {% 
   include figure.html 
   image="images/wordcloud.jpg"
-  width="800px"
+  width="600px"
 %}
 
-## Direction 1
+<!-- ## Direction 1
 
 Direction 1 content.
 {% 
   include figure.html 
-  image="images/gallery9.png"
+  image=""
   width="800px"
 %}
 
@@ -36,7 +36,7 @@ Direction 3 content.
 
 ## Direction 4 
 
-Direction 4 content
+Direction 4 content -->
 
 
 
@@ -50,15 +50,6 @@ These studies empower our second level research. We use population data to **cha
 
 Last, we perform detailed **clonal heterogeneity tracking studies**. We profile temporally as well as spatially separated samples (diagnosis, pre-treatment, post treatment) to quantify changing clonal phylogenies, during disease progression, or in response to therapeutic intervention.
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
 {% endcapture %}
 
 {%
@@ -68,7 +59,8 @@ Last, we perform detailed **clonal heterogeneity tracking studies**. We profile 
   title="Our Research"
   text=text
   width="500px"
-  className="feature-image large"
+  flip=true
+  className="feature-image"
 %}
 
 {% capture text %}
@@ -84,9 +76,9 @@ We benefit from a fully resourced computational and research environment. We hav
   image="images/kids1.jpg"
   link="tools"
   title="Our Projects"
-  flip=true
-  style="bare"
   text=text
+  width="500px"
+  className="feature-image"
 %}
 
 {% capture text %}
@@ -103,4 +95,7 @@ We like to perform ambitious research, but operate in a fun, collaborative, and 
   link="team"
   title="Our Team"
   text=text
+  width="500px"
+  flip=true
+  className="feature-image"
 %}
