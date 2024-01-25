@@ -76,7 +76,6 @@
 <link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
 <!-- include all sass in styles folder -->
 
 
@@ -145,6 +144,10 @@
   
 
   
+    <link href="/Med_AIR_LABWEB/_styles/flickity.css" rel="stylesheet">
+  
+
+  
     <link href="/Med_AIR_LABWEB/_styles/float.css" rel="stylesheet">
   
 
@@ -158,10 +161,6 @@
 
   
     <link href="/Med_AIR_LABWEB/_styles/form.css" rel="stylesheet">
-  
-
-  
-    <link href="/Med_AIR_LABWEB/_styles/gallery.css" rel="stylesheet">
   
 
   
@@ -314,8 +313,6 @@
 
   
 
-  
-
 
 <!-- include all css in styles folder -->
 
@@ -330,7 +327,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
 <!-- include all js in scripts folder -->
 
 
@@ -339,6 +335,8 @@
   <script src="/Med_AIR_LABWEB/_scripts/dark-mode.js"></script>
 
   <script src="/Med_AIR_LABWEB/_scripts/fetch-tags.js"></script>
+
+  <script src="/Med_AIR_LABWEB/_scripts/flickity.pkgd.min.js"></script>
 
   <script src="/Med_AIR_LABWEB/_scripts/gallery.js"></script>
 
@@ -569,24 +567,123 @@
         <li> Associate Editor, Journal of Machine Learning for Biomedical Imaging (<a href="https://www.melba-journal.org/" target="_blank">MELBA</a>), since 2021.</li>
     </ul>
 </div>
+<link rel="stylesheet" href="./_styles/flickity.css" media="screen">
+
+<script src="_scripts/gallery.js"></script>
+
+<script src="_scripts/flickity.pkgd.min.js"></script>
+
 <h2 id="gallery">Group Gallery</h2>
-<div class="gallery">
-  <div class="photo-container">
-    <div class="image-box">
-      <img id="gallery-image" src="./images/gallery/gallery1.png" alt="Photo">
+<div class="carousel-container">
+  <div class="carousel carousel-main js-flickity" data-flickity='{ "selectedAttraction": 0.05,
+    "friction": 0.5, "wrapAround": true, "autoPlay": 3000, "pauseAutoPlayOnHover": false, "pageDots": false}'>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery1.png">
     </div>
-    <button class="prev-button">&lt;</button>
-    <button class="next-button">&gt;</button>
-    <div class="caption">
-      <p id="caption-text">Gallery 1</p>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery2.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery3.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery4.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery5.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery6.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery7.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery8.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery9.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery10.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery11.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery12.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery13.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery14.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery15.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery16.png">
+    </div>
+    <div class="carousel-main-cell">
+      <img src="./images/gallery/gallery17.png">
+    </div>
+  </div>
+  <br>
+  <div class="carousel carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "wrapAround": true, "pageDots": false, "prevNextButtons": false}'>
+    <div class="carousel-cell is-nav-selected">
+      <img src="./images/gallery/gallery1.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery2.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery3.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery4.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery5.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery6.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery7.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery8.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery9.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery10.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery11.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery12.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery13.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery14.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery15.png">
+    </div>
+<div class="carousel-cell">
+      <img src="./images/gallery/gallery16.png">
+    </div>
+    <div class="carousel-cell">
+      <img src="./images/gallery/gallery17.png">
     </div>
   </div>
 </div>
-<div class="preview-bar">
-  <div class="preview-images"></div>
-</div>
-
-<script src="_scripts/gallery.js"></script>
   </section>
 
 </main>

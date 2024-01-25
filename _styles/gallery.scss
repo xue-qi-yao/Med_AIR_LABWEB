@@ -1,0 +1,120 @@
+// ---
+// ---
+
+// * {
+//     box-sizing: border-box;
+//   }
+  
+//   body {
+//     font-family: sans-serif;
+//   }
+  
+//   .carousel {
+//     background: transparent;
+//     width: 600px;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+  
+//   .carousel-main-cell {
+//     width: 70%;
+//     height: 200px;
+//     /* flex-box, center image in cell */
+//     display: -webkit-box;
+//     display: -webkit-flex;
+//     display: flex;
+//     -webkit-box-pack: center;
+//     -webkit-justify-content: center;
+//     justify-content: center;
+//     -webkit-align-items: center;
+//     align-items: center;
+//   }
+  
+//   .carousel-main-cell img {
+//     display: block;
+//     max-width: 100%;
+//     max-height: 100%;
+//     /* dim unselected */
+//     opacity: 0.7;
+//     -webkit-transform: scale(0.85);
+//     transform: scale(0.85);
+//     -webkit-filter: blur(5px);
+//     filter: blur(5px);
+//     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+//     transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+//   }
+  
+//   /* brighten selected image */
+//   .carousel-main-cell.is-selected img {
+//     opacity: 1;
+//     -webkit-transform: scale(1);
+//     transform: scale(1);
+//     -webkit-filter: none;
+//     filter: none;
+//   }
+  
+//   @media screen and (min-width: 768px) {
+//     .carousel-main-cell {
+//       height: 200px;
+//     }
+//   }
+//   @media screen and (min-width: 960px) {
+//     .carousel-main-cell {
+//       width: 60%;
+//     }
+//   }
+//   /* buttons, no circle */
+//   .flickity-prev-next-button {
+//     width: 60px;
+//     height: 60px;
+//     background: var(--primary);
+//     opacity: 0.5;
+//   }
+  
+//   .flickity-prev-next-button:hover {
+//     background: var(--primary);
+//     opacity: 0.8;
+//   }
+  
+//   /* arrow color */
+//   .flickity-prev-next-button .arrow {
+//     fill: var(--primary);
+//   }
+  
+//   .flickity-prev-next-button.no-svg {
+//     color: var(--primary);
+//   }
+  
+//   /* closer to edge */
+//   .flickity-prev-next-button.previous {
+//     left: 0;
+//   }
+  
+//   .flickity-prev-next-button.next {
+//     right: 0;
+//   }
+  
+//   /* hide disabled button */
+//   .flickity-prev-next-button:disabled {
+//     display: none;
+//   }
+  
+//   .carousel-nav .carousel-cell {
+//     height: 50px;
+//     width: 85px;
+//   }
+  
+//   .carousel-nav .carousel-cell:before {
+//     font-size: 50px;
+//     line-height: 50px;
+//   }
+  
+//   .carousel-nav .carousel-cell.is-nav-selected img {
+//     border: 2px solid var(--primary);
+//     opacity: 0.5;
+//   }
+  
+//   .carousel-cell img {
+//     height: 50px;
+//     width: 80px;
+//   }

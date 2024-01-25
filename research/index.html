@@ -76,7 +76,6 @@
 <link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
 <!-- include all sass in styles folder -->
 
 
@@ -145,6 +144,10 @@
   
 
   
+    <link href="/Med_AIR_LABWEB/_styles/flickity.css" rel="stylesheet">
+  
+
+  
     <link href="/Med_AIR_LABWEB/_styles/float.css" rel="stylesheet">
   
 
@@ -158,10 +161,6 @@
 
   
     <link href="/Med_AIR_LABWEB/_styles/form.css" rel="stylesheet">
-  
-
-  
-    <link href="/Med_AIR_LABWEB/_styles/gallery.css" rel="stylesheet">
   
 
   
@@ -314,8 +313,6 @@
 
   
 
-  
-
 
 <!-- include all css in styles folder -->
 
@@ -330,7 +327,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
 <!-- include all js in scripts folder -->
 
 
@@ -339,6 +335,8 @@
   <script src="/Med_AIR_LABWEB/_scripts/dark-mode.js"></script>
 
   <script src="/Med_AIR_LABWEB/_scripts/fetch-tags.js"></script>
+
+  <script src="/Med_AIR_LABWEB/_scripts/flickity.pkgd.min.js"></script>
 
   <script src="/Med_AIR_LABWEB/_scripts/gallery.js"></script>
 
@@ -456,37 +454,49 @@
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/Med_AIR_LABWEB/images/wordcloud.jpg" style="
-        width: 800px;
+        width: 600px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
 
-<h2 id="direction-1">Direction 1</h2>
+<!-- ## Direction 1
 
-<p>Direction 1 content.</p>
+Direction 1 content.
 <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/Med_AIR_LABWEB/images/gallery9.png" style="
+  <a
+    
+    class="figure-image"
+    aria-label="figure link"
+  >
+    <img
+      src="/Med_AIR_LABWEB"
+      style="
         width: 800px;
         max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
+      "
+      alt="figure image"
+      loading="lazy"
+      onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;"
+
+    >
   </a>
   
 </figure>
 
-<h2 id="direction-2">Direction 2</h2>
 
-<p>Direction 2 content.</p>
+## Direction 2
 
-<h2 id="direction-3">Direction 3</h2>
+Direction 2 content.
 
-<p>Direction 3 content.</p>
+## Direction 3
 
-<h2 id="direction-4">Direction 4</h2>
+Direction 3 content.
 
-<p>Direction 4 content</p>
+## Direction 4 
+
+Direction 4 content -->
   </section>
 
   
@@ -500,8 +510,8 @@
   size: ;
 -->
 
-<div class="feature">
-  <a href="/Med_AIR_LABWEB/research" class="feature-image large" aria-label="Our Research">
+<div class="feature" data-flip="">
+  <a href="/Med_AIR_LABWEB/research" class="feature-image" aria-label="Our Research">
     <img src="/Med_AIR_LABWEB/images/elli-maria.png" loading="lazy" style="
       width: 500px;
       max-height: unset;
@@ -518,23 +528,14 @@
 
 <p>Last, we perform detailed <strong>clonal heterogeneity tracking studies</strong>. We profile temporally as well as spatially separated samples (diagnosis, pre-treatment, post treatment) to quantify changing clonal phylogenies, during disease progression, or in response to therapeutic intervention.</p>
 
-<div class="button-wrapper">
-    <a class="button" href="/Med_AIR_LABWEB/research" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>See our publications</span>
-      
-    </a>
-  </div>
-
 
   </div>
 </div>
 
-<div class="feature" data-flip="">
-  <a href="/Med_AIR_LABWEB/tools" class="" aria-label="Our Projects">
+<div class="feature">
+  <a href="/Med_AIR_LABWEB/tools" class="feature-image" aria-label="Our Projects">
     <img src="/Med_AIR_LABWEB/images/kids1.jpg" loading="lazy" style="
-      width: auto;
+      width: 500px;
       max-height: unset;
       " alt="Our Projects" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -551,10 +552,10 @@
   </div>
 </div>
 
-<div class="feature">
-  <a href="/Med_AIR_LABWEB/team" class="" aria-label="Our Team">
+<div class="feature" data-flip="">
+  <a href="/Med_AIR_LABWEB/team" class="feature-image" aria-label="Our Team">
     <img src="/Med_AIR_LABWEB/images/lab-edge.jpg" loading="lazy" style="
-      width: auto;
+      width: 500px;
       max-height: unset;
       " alt="Our Team" onerror="this.src = '/Med_AIR_LABWEB/images/fallback.svg'; this.onerror = null;">
   </a>
