@@ -52,7 +52,7 @@ Recent focus: 1) **embodied intelligence** in surgical robots, 2) **smart mixed-
 
 {% capture text %}
 
-Augmented Reality (AR) and Virtual Reality (VR) technologies have great potential in the medical field. Professor we explores the application of AR/VR in various medical domains, including surgical simulation, medical education, and visualization of medical images. By creating immersive and interactive experiences, these technologies can enhance medical training, improve surgical planning, and facilitate better communication between healthcare professionals and patients. 
+Augmented Reality (AR) and Virtual Reality (VR) technologies have great potential in the medical field. We explore the application of AR/VR in various medical domains, including surgical simulation, medical education, and visualization of medical images. By creating immersive and interactive experiences, these technologies can enhance medical training, improve surgical planning, and facilitate better communication between healthcare professionals and patients. 
 
 This research direction encompass a wide range of interdisciplinary studies, combining expertise in medical image analysis, robotics, and AR/VR technologies. We not only addresses critical challenges in healthcare but also strives to push the boundaries of innovation, ultimately contributing to improved diagnostics, enhanced surgical procedures, and better patient outcomes.
 
