@@ -707,21 +707,18 @@
   * {
     box-sizing: border-box;
   }
-  
-  body {
-    font-family: sans-serif;
-  }
+
   
   .carousel {
     background: transparent;
-    width: 600px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
   }
   
   .carousel-main-cell {
     width: 70%;
-    height: 200px;
+    height: 400px;
     /* flex-box, center image in cell */
     display: -webkit-box;
     display: -webkit-flex;
@@ -758,7 +755,7 @@
   
   @media screen and (min-width: 768px) {
     .carousel-main-cell {
-      height: 200px;
+      height: 400px;
     }
   }
   @media screen and (min-width: 960px) {
@@ -771,12 +768,12 @@
   .flickity-prev-next-button {
     width: 60px;
     height: 60px;
-    background: var(--primary);
+    background: rgba(255, 255, 255, 0.8);
     opacity: 0.5;
   }
   
   .flickity-prev-next-button:hover {
-    background: var(--primary);
+    background: rgba(245, 245, 245, 0.5);
     opacity: 0.8;
   }
   
@@ -791,11 +788,11 @@
   
   /* closer to edge */
   .flickity-prev-next-button.previous {
-    left: 0;
+    left: 10px;
   }
   
   .flickity-prev-next-button.next {
-    right: 0;
+    right: 10px;
   }
   
   /* hide disabled button */
