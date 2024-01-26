@@ -15,9 +15,8 @@
             var year = years[i];
             if (tag === "all") {
                 year.style.display = "";
-                year.style.position = "absolute";
+                year.style.position = "relatvie";
                 year.style.left = "50%";
-                year.style.transform = "translateX(-50%)";
             }
             else {
                 year.style.display = "none";

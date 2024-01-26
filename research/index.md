@@ -5,15 +5,15 @@ nav:
   tooltip: Research directions
 ---
 
-{%include research.html%}
+<h2>Research</h2>
 
 Our research is at the interdisciplinary field of **medical image analysis**, **machine learning** and **robotic surgery intelligence**, aiming to create synergistic advancements for innovative intelligent systems that achieve an impact to support delivery of higher-quality medical diagnosis, intervention and education via next-generation healthcare technology. Previous representative works include 3D deep learning for high-dimensional image computing, domain adaptation and generalization on heterogeneous medical data, surgical video analysis with efficient spatial-temporal learning, and visual-kinematics surgical robotics perception and automation.
 
 Recent focus: 1) **embodied intelligence** in surgical robots, 2) **smart mixed-reality** for robotic surgical education, 3) **multi-sensory perception** in dynamic environment, 4) **model generalization on non-iid medical images at FL/multi-center learning** in real-world.
 {% 
   include figure.html 
-  image="images/wordcloud.jpg"
-  width="800px"
+  image="images/wordcloud5.png"
+  width="1000px"
 %}
 <br>
 <h2> Directions </h2>
