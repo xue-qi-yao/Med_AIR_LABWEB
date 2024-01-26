@@ -704,6 +704,7 @@
     height: 60%;
   }
 
+    /* user customized */
   * {
     box-sizing: border-box;
   }
@@ -768,12 +769,12 @@
   .flickity-prev-next-button {
     width: 60px;
     height: 60px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.6);
     opacity: 0.5;
   }
   
   .flickity-prev-next-button:hover {
-    background: rgba(245, 245, 245, 0.2);
+    background: rgba(245, 245, 245, 0.8);
     opacity: 0.8;
   }
   
@@ -801,8 +802,11 @@
   }
   
   .carousel-nav .carousel-cell {
-    height: 50px;
-    width: 85px;
+    height: 60px;
+    width: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .carousel-nav .carousel-cell:before {
@@ -812,6 +816,8 @@
   
   .carousel-nav .carousel-cell.is-nav-selected img {
     border: 2px solid var(--primary);
+    height: 60px;
+    width: 92px;
     opacity: 0.5;
   }
   
