@@ -26,7 +26,7 @@ Recent focus: 1) **embodied intelligence** in surgical robots, 2) **smart mixed-
 {%
   include feature.html
   image="images/research/research1.png"
-  link="research"
+  link="publication"
   title="Medical Image Analysis"
   text=text
   flip=true
@@ -44,7 +44,7 @@ Recent focus: 1) **embodied intelligence** in surgical robots, 2) **smart mixed-
 {%
   include feature.html
   image="images/research/research2.jpeg"
-  link="tools"
+  link="publication"
   title="Sugerical Robotics"
   text=text
   className="feature-image"
@@ -61,7 +61,7 @@ This research direction encompass a wide range of interdisciplinary studies, com
 {%
   include feature.html
   image="images/research/research3.gif"
-  link="team"
+  link="publication"
   title="AR/VR in Medicine"
   text=text
   flip=true

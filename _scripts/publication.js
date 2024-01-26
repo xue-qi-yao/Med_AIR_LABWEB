@@ -15,7 +15,7 @@
             var year = years[i];
             if (tag === "all") {
                 year.style.display = "";
-                year.style.position = "relatvie";
+                year.style.position = "relative";
                 year.style.left = "50%";
             }
             else {
