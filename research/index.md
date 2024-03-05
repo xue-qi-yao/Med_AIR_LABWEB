@@ -1,7 +1,7 @@
 ---
 title: Research
 nav:
-  order: 2
+  order: 3
   tooltip: Research directions
 ---
 
@@ -12,11 +12,11 @@ Our research is at the interdisciplinary field of **medical image analysis**, **
 Recent focus: 1) **embodied intelligence** in surgical robots, 2) **smart mixed-reality** for robotic surgical education, 3) **multi-sensory perception** in dynamic environment, 4) **model generalization on non-iid medical images at FL/multi-center learning** in real-world.
 {% 
   include figure.html 
-  image="images/wordcloud5.png"
+  image="images/wordcloud.png"
   width="1000px"
 %}
 <br>
-<h2> Directions </h2>
+<h2> Topics </h2>
 {% capture text %}
 **Theoretical Analysis**: we focuse on two key areas, federated learning and addressing label imbalance as well as noisy labels. We explore the application of federated learning techniques to train medical image analysis models while preserving data privacy. Additionally, we investigate methods to handle imbalanced label distributions in medical imaging data, improving detection and classification capabilities for underrepresented classes. Furthermore, our research delves into mitigating the impact of noisy labels, enhancing the reliability and performance of medical image analysis models.
 
@@ -45,7 +45,7 @@ Recent focus: 1) **embodied intelligence** in surgical robots, 2) **smart mixed-
   include feature.html
   image="images/research/research2.jpeg"
   link="publication"
-  title="Sugerical Robotics"
+  title="Surgical Robotics"
   text=text
   className="feature-image"
 %}

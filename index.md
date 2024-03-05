@@ -1,4 +1,8 @@
 ---
+title: Home
+nav:
+  order: 1
+  tooltip: Home
 ---
 
 <!-- # The Med-AIR Lab -->
