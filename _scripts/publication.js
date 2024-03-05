@@ -16,7 +16,7 @@
             if (tag === "all") {
                 year.style.display = "";
                 year.style.position = "relative";
-                year.style.left = "50%";
+                year.style.left = "-45%";
             }
             else {
                 year.style.display = "none";

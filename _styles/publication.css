@@ -189,12 +189,4 @@
   display: flex;
 }
 
-#award-anchor, #publication-anchor, #talk-anchor, #more-anchor {
-  position: relative;
-  top: -300px;
-  display: block;
-  height: 0;
-  overflow: hidden;
-}
-
 /*# sourceMappingURL=publication.css.map */

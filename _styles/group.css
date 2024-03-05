@@ -1,9 +1,26 @@
+.professor-container {
+  display: flex;
+  align-items: center;
+}
+
+.professor-content {
+  width: 400px;
+  margin-right: 1rem;
+}
+
+.professor-bio {
+  width: 600px;
+  word-wrap: break-word;
+  text-align: justify;
+  margin-right: 1rem;
+}
+
 .professor img {
   width: 14rem;
   height: 14rem;
   border-radius: 7rem;
   margin: 0.5rem;
-  border: #eee 0.5rem solid;
+  border: rgba(4, 43, 64, 0.5) 0.5rem solid;
 }
 
 @media screen and (max-width: 992px) {
@@ -11,7 +28,7 @@
     width: 10rem;
     height: 10rem;
     border-radius: 5rem;
-    border: #eee 0.3rem solid;
+    border: var(--primary) 0.3rem solid;
   }
 }
 .student-container {
@@ -39,7 +56,7 @@
   height: 14rem;
   border-radius: 7rem;
   margin: 0.5rem;
-  border: #eee 0.5rem solid;
+  border: rgba(4, 43, 64, 0.5) 0.5rem solid;
 }
 
 @media screen and (max-width: 992px) {
@@ -50,7 +67,7 @@
     width: 10rem;
     height: 10rem;
     border-radius: 5rem;
-    border: #eee 0.3rem solid;
+    border: var(--primary) 0.3rem solid;
   }
 }
 @media screen and (max-width: 600px) {

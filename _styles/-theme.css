@@ -1,8 +1,8 @@
 :root {
   --title: "Barlow", sans-serif;
   --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
-  --code: "Roboto Mono", monospace;
+  --body: "Arial", sans-serif;
+  --code: "Arial", sans-serif;
   --medium: 0.8rem;
   --large: 1rem;
   --xl: 1.2rem;
